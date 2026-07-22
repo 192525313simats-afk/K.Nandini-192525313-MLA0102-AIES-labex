@@ -1,0 +1,24 @@
+START
+
+Read number of nodes (n)
+
+For each node
+    Read node name
+    Read its neighbors
+    Store in graph
+
+Read starting node
+
+Create an empty queue
+Create an empty visited set
+
+Insert starting node into queue
+
+While queue is not empty
+    Remove first node from queue
+    If node is not visited
+        Print node
+        Mark node as visited
+        Add all unvisited neighbors to queue
+
+STOP

@@ -1,0 +1,29 @@
+START
+
+Read number of nodes
+
+For each node
+    Read node name
+    Read neighbors and their costs
+    Store in graph
+
+Read start node
+Read goal node
+
+Create a priority queue
+Insert start node with cost 0
+
+While priority queue is not empty
+    Remove node with minimum cost
+
+    If node is goal
+        Print minimum cost
+        Stop
+
+    Mark node as visited
+
+    For each neighbor
+        If neighbor is not visited
+            Add neighbor with updated cost to priority queue
+
+STOP

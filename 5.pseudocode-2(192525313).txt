@@ -1,0 +1,30 @@
+START
+
+Read number of nodes
+
+For each node
+    Read node and its neighbors
+    Store in graph
+
+Read heuristic values
+
+Read start node
+Read goal node
+
+Create a priority queue
+
+Insert start node
+
+While priority queue is not empty
+    Remove node with lowest heuristic
+
+    Print node
+
+    If node is goal
+        Stop
+
+    Mark node as visited
+
+    Insert all unvisited neighbors into the priority queue
+
+STOP

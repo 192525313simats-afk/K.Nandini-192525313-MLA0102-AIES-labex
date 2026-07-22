@@ -1,0 +1,36 @@
+START
+
+Read number of nodes
+
+For each node
+    Read neighbors and edge costs
+    Store in graph
+
+Read heuristic value for each node
+
+Read start node
+Read goal node
+
+Create a priority queue
+
+Insert start node with
+    f = g + h
+    where g = 0
+
+While priority queue is not empty
+    Remove node with minimum f value
+
+    If node is goal
+        Print optimal cost
+        Stop
+
+    Mark node as visited
+
+    For each neighbor
+        Calculate:
+            g = current cost + edge cost
+            f = g + heuristic
+
+        Insert neighbor into priority queue
+
+STOP

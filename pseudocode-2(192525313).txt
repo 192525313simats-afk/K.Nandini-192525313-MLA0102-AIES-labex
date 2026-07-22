@@ -1,0 +1,23 @@
+START
+
+Read number of nodes (n)
+
+For each node
+    Read node name
+    Read its neighbors
+    Store in graph
+
+Read starting node
+
+Create an empty visited set
+
+Define DFS(node)
+    If node is not visited
+        Print node
+        Mark node as visited
+        For each neighbor of node
+            Call DFS(neighbor)
+
+Call DFS(starting node)
+
+STOP
