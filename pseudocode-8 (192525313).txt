@@ -1,0 +1,43 @@
+START
+
+Import math module
+
+Define alphabeta(depth, nodeIndex, maximizingPlayer,
+                 values, alpha, beta, maxDepth)
+
+    If depth equals maxDepth
+        Return values[nodeIndex]
+
+    If maximizingPlayer is True
+        Set best = -∞
+
+        Repeat for each child
+            Find value using recursive call
+            Update best and alpha
+
+            If beta ≤ alpha
+                Stop exploring (Prune)
+
+        Return best
+
+    Else
+        Set best = +∞
+
+        Repeat for each child
+            Find value using recursive call
+            Update best and beta
+
+            If beta ≤ alpha
+                Stop exploring (Prune)
+
+        Return best
+
+Read leaf node values
+
+Calculate maximum depth
+
+Call Alpha-Beta algorithm
+
+Print the optimal value
+
+STOP

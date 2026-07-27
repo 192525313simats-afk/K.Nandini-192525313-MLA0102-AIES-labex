@@ -1,0 +1,33 @@
+START
+
+Import deque
+
+Create an empty visited set
+
+Create a queue with initial state (0,0)
+
+While queue is not empty
+
+    Remove first state
+
+    If state already visited
+        Continue
+
+    Mark state as visited
+
+    If first jug contains 2 litres
+        Return solution
+
+    Generate next possible states:
+        Fill 4L jug
+        Fill 3L jug
+        Empty 4L jug
+        Empty 3L jug
+        Pour 4L jug into 3L jug
+        Pour 3L jug into 4L jug
+
+    Add unvisited states to queue
+
+Print all steps
+
+STOP

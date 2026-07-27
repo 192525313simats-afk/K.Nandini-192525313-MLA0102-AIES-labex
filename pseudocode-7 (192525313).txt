@@ -1,0 +1,31 @@
+START
+
+Import math module
+
+Define minimax(depth, nodeIndex, maximizingPlayer, values, maxDepth)
+
+    If depth equals maxDepth
+        Return values[nodeIndex]
+
+    If maximizingPlayer is True
+        Return maximum of
+            Left child
+            Right child
+
+    Else
+        Return minimum of
+            Left child
+            Right child
+
+Read the terminal node values
+
+Calculate maximum depth
+
+Call minimax starting from
+    depth = 0
+    nodeIndex = 0
+    maximizingPlayer = True
+
+Print the optimal value
+
+STOP
