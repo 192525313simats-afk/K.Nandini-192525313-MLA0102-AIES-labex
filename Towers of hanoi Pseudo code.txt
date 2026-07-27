@@ -1,0 +1,17 @@
+START
+
+Read number of disks n
+
+Function HANOI(n, A, B, C)
+    If n = 1
+        Print move disk 1 from A to C
+    Else
+        HANOI(n-1, A, C, B)
+        Print move disk n from A to C
+        HANOI(n-1, B, A, C)
+    End If
+End Function
+
+Call HANOI(n, A, B, C)
+
+STOP
