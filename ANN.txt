@@ -1,0 +1,12 @@
+Start.
+Collect historical patient medical data.
+Select input features such as age, blood pressure, and sugar level.
+Assign the output as 0 = No Disease and 1 = Disease.
+Split the dataset into training and testing data.
+Create an Artificial Neural Network with input, hidden, and output layers.
+Train the ANN using the training data.
+Test the trained model using the testing data.
+Calculate the prediction accuracy.
+Give new patient data as input.
+Predict whether the patient has the disease or not.
+Stop.
